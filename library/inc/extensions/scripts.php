@@ -30,7 +30,7 @@ function reactor_register_scripts() {
 	wp_register_script('autocomplete-js', get_template_directory_uri() . '/library/js/vendor/jquery.autocomplete.js', array(), false, true);
 	wp_register_script('cookie-js', get_template_directory_uri() . '/library/js/vendor/jquery.cookie.js', array(), false, true);
 	wp_register_script('placeholder-js', get_template_directory_uri() . '/library/js/vendor/placeholder.js', array(), false, true);
-	wp_register_script('mixitup-js', get_template_directory_uri() . '/library/js/mixitup.min.js', array(), false, true);
+	wp_register_script('mixitup-js', get_template_directory_uri() . '/library/js/vendor/jquery.mixitup.min.js', array(), false, true);
 	wp_register_script('reactor-js', get_template_directory_uri() . '/library/js/reactor.js', array(), false, true);
 }
 
