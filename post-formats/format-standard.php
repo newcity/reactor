@@ -97,8 +97,8 @@ $link_titles = reactor_option('frontpage_link_titles', 0);
                 edit_post_link( __('Edit', 'reactor'), '<div class="edit-link"><span>', '</span></div>');
                 endif; ?>
 
-                <?php if ( is_single() ) : ?>
-                $exclude = ( reactor_option('frontpage_exclude_cat', 1) ) ? reactor_option('frontpage_post_category', '') : ''; ?>
+                <?php if ( is_single() ) : 
+                    $exclude = ( reactor_option('frontpage_exclude_cat', 1) ) ? reactor_option('frontpage_post_category', '') : ''; ?>
                 <nav class="nav-single">
                     <span class="nav-previous alignleft">
                     <?php previous_post_link('%link', '<span class="meta-nav">' . _x('&larr;', 'Previous post link', 'reactor') . '</span> %title', false, $exclude); ?>
