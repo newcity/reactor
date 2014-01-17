@@ -12,7 +12,7 @@
 
 	<div id="primary" class="content-area">
 
-    	<?php reactor_content_before(); ?>
+    	<?php /* reactor_content_before(); */ ?>
 
         <main id="main" class="site-main" role="main">
         	<div class="row">
